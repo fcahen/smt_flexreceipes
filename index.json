@@ -1,7 +1,8 @@
 {
     "recipes": {
         "smartch/riseup-connector": [
-            "dev-master"
+            "dev-master",
+            "1.0"
         ]
     },
     "branch": "master",
