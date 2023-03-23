@@ -7,8 +7,8 @@
     "branch": "master",
     "is_contrib": true,
     "_links": {
-        "repository": "bitbucket.org/fabrice_cahen/smt_flexreceipes",
+        "repository": "fabrice_cahen@bitbucket.org/fabrice_cahen/smt_flexreceipes",
         "origin_template": "{package}:{version}@bitbucket.org/fabrice_cahen/smt_flexreceipes/src/master",
-        "recipe_template": "https://bitbucket.org/fabrice_cahen/smt_flexreceipes/src/master/{package_dotted}.{version}.json"
+        "recipe_template": "https://fabrice_cahen@bitbucket.org/fabrice_cahen/smt_flexreceipes/src/master/{package_dotted}.{version}.json"
     }
 }
