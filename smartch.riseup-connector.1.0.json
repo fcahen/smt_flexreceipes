@@ -12,7 +12,7 @@
                 }
             },
             "files": {
-            	"config/packages/riseup-connector.yaml": {
+            	"config/packages/riseup_connector.yaml": {
             		"contents": [
             			"rise_up_connector:",
             			"    base_url: 'https://api.riseup.ai' # API base URL (api.riseup.ai or api-preprod.riseup.ai",
@@ -26,7 +26,7 @@
             		"executable": false
             	}
             },
-            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d7d"
+            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d80"
         }
     }
 }
