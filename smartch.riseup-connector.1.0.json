@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "riseup/riseup-connector": {
+        "smartch/riseup-connector": {
             "manifest": {
                 "bundles": {
                     "Smartch\\RiseUpConnector\\RiseUpConnectorBundle": [
