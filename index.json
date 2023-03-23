@@ -1,14 +1,14 @@
 {
     "recipes": {
         "smartch/riseup-connector": [
-            "1.0"
+            "dev-master"
         ]
     },
     "branch": "master",
     "is_contrib": true,
     "_links": {
-        "repository": "bitbucket.org/fabrice_cahen/smt_flexreceipes",
-        "origin_template": "{package}:{version}@bitbucket.org/fabrice_cahen/smt_flexreceipes:master",
-        "recipe_template": "https://fabrice_cahen@bitbucket.org/fabrice_cahen/smt_flexreceipes/contents/{package_dotted}.{version}.json"
+        "repository": "fabrice_cahen@bitbucket.org/fabrice_cahen/smt_flexreceipes.git",
+        "origin_template": "{package}:{version}@bitbucket.org/fabrice_cahen/smt_flexreceipes.git:master",
+        "recipe_template": "https://fabrice_cahen@bitbucket.org/fabrice_cahen/smt_flexreceipes.git/contents/{package_dotted}.{version}.json"
     }
 }
