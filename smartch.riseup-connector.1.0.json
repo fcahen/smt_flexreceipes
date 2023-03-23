@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "riseup/riseup-connector": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\RiseUpConnector\\RiseUpConnectorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-receipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/packages/riseup-connector.yaml": {
+            		"contents": [
+            			"riseup_connector:",
+            			"    base_url: 'https://api.riseup.ai' # API base URL (api.riseup.ai or api-preprod.riseup.ai",
+            			"    request_url: 'https://api.riseup.ai/v3/' # API base URL + API version",
+            			"    authentication_endpoint: 'https://api.riseup.ai/v3/oauth/token' # api.riseup.ai or api-preprod.riseup.ai",
+            			"    client_id: 'publickey' # Get it from your RiseUp API Settings page",
+            			"    client_secret: 'secretkey' # Get it from your RiseUp API Settings page",
+            			"    grant_type: 'client_credentials' # sole value supported",
+            			""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d7e"
+        }
+    }
+}
