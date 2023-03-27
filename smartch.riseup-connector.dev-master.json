@@ -21,6 +21,7 @@
             			"    client_id: 'publickey' # Get it from your RiseUp API Settings page",
             			"    client_secret: 'secretkey' # Get it from your RiseUp API Settings page",
             			"    grant_type: 'client_credentials' # sole value supported",
+            			"    class_override_namespace: 'App\\RiseUp' # Namespace holding overriden classes (interim custom fields handling)",
             			""
             	    ],
             		"executable": false
