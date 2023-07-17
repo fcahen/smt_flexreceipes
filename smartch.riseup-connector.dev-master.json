@@ -22,6 +22,8 @@
             			"    client_secret: 'secretkey' # Get it from your RiseUp API Settings page",
             			"    grant_type: 'client_credentials' # sole value supported",
             			"    class_override_namespace: 'App\\RiseUp' # Namespace holding overriden classes (interim custom fields handling)",
+            			"    max_requests: 295 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
+            			"    requests_counting_window: 60 # Requests counting timeframe",
             			""
             	    ],
             		"executable": false
