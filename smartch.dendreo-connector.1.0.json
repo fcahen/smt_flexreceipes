@@ -1,0 +1,31 @@
+{
+    "manifests": {
+        "smartch/dendreo-connector": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\DendreoConnector\\DendreoConnectorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/packages/dendreo_connector.yaml": {
+            		"contents": [
+            			"rise_up_connector:",
+            			"    request_url: 'https://api.dendreo.ai/v3/' # API base URL + API version",
+            			"    client_token: 'secretkey' # Get it from your Dendreo API Settings page",
+            			"    class_override_namespace: 'App\\Dendreo' # Namespace holding overriden classes (interim custom fields handling)",
+            			"    max_requests: 100 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
+            			"    requests_counting_window: 10 # Requests counting timeframe",
+            			""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d84"
+        }
+    }
+}
