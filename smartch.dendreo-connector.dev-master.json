@@ -15,7 +15,7 @@
             	"config/packages/dendreo_connector.yaml": {
             		"contents": [
             			"dendreo_connector:",
-            			"    request_url: 'https://pro.dendreo.com/demo/' # API base URL + API version",
+            			"    request_url: 'https://pro.dendreo.com/demo/' # API base URL + Client name",
             			"    client_token: 'secretkey' # Get it from your Dendreo API Settings page",
             			"    class_override_namespace: 'App\\Dendreo' # Namespace holding overriden classes (interim custom fields handling)",
             			"    max_requests: 100 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
