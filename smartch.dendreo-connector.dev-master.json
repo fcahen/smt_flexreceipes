@@ -20,6 +20,7 @@
             			"    class_override_namespace: 'App\\Dendreo' # Namespace holding overriden classes (interim custom fields handling)",
             			"    max_requests: 100 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
             			"    requests_counting_window: 10 # Requests counting timeframe",
+                        "    timezone: 'UTC' # Timezone used for Dendreo API requests",
             			""
             	    ],
             		"executable": false
