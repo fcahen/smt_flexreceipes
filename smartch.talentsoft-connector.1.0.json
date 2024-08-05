@@ -22,7 +22,7 @@
             			"    client_secret: 'secretkey' # Get it from your TalentSoft API Settings page",
                         "    username: 'username' # Username for password grant type",
 						"    password: 'password' # Password for password grant type",
-            			"    grant_type: 'client_credentials' # sole value supported",
+            			"    grant_type: 'password' # sole value supported",
             			"    class_override_namespace: 'App\\TalentSoft' # Namespace holding overriden classes (interim custom fields handling)",
             			"    max_requests: 295 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
             			"    requests_counting_window: 60 # Requests counting timeframe",
@@ -32,7 +32,7 @@
             		"executable": false
             	}
             },
-            "ref": "76f90e632c36acc868f7045cc24dfcb10a901d84"
+            "ref": "75f90e632c36acc868f7045cc24dfcb10a901d84"
         }
     }
 }
