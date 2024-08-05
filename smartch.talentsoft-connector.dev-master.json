@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "smartch/talentsoft-connector": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\TalentSoftConnector\\TalentSoftConnectorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/packages/talentsoft_connector.yaml": {
+            		"contents": [
+            			"talentsoft_connector:",
+            			"    base_url: 'https://api.cegid.com' # API base URL (api.cegid.com or api-preprod.talentsoft.ai",
+            			"    request_url: 'https://api.cegid.com/v3/' # API base URL + API version",
+            			"    authentication_endpoint: 'https://api.cegid.com/v3/oauth/token' # api.cegid.com or api-preprod.talentsoft.ai",
+            			"    client_id: 'publickey' # Get it from your TalentSoft API Settings page",
+            			"    client_secret: 'secretkey' # Get it from your TalentSoft API Settings page",
+						"    username: 'username' # Username for password grant type",
+						"    password: 'password' # Password for password grant type",
+            			"    grant_type: 'password' # sole value supported",
+            			"    class_override_namespace: 'App\\TalentSoft' # Namespace holding overriden classes (interim custom fields handling)",
+            			"    max_requests: 295 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
+            			"    requests_counting_window: 60 # Requests counting timeframe",
+						"    timezone: 'UTC' # Timezone used for Dendreo API requests",
+						""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d85"
+        }
+    }
+}
