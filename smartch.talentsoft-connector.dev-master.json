@@ -14,7 +14,7 @@
             "files": {
             	"config/packages/talentsoft_connector.yaml": {
             		"contents": [
-            			"talentsoft_connector:",
+            			"talent_soft_connector:",
             			"    base_url: 'https://api.cegid.com' # API base URL (api.cegid.com or api-preprod.talentsoft.ai",
             			"    request_url: 'https://api.cegid.com/v3/' # API base URL + API version",
             			"    authentication_endpoint: 'https://api.cegid.com/v3/oauth/token' # api.cegid.com or api-preprod.talentsoft.ai",
