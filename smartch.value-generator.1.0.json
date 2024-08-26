@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "smartch/riseup-connector": {
+        "smartch/value-generator": {
             "manifest": {
                 "bundles": {
-                    "Smartch\\RiseUpConnector\\RiseUpConnectorBundle": [
+                    "Smartch\\ValueGenerator\\ValueGeneratorBundle": [
                         "all"
                     ]
                 },

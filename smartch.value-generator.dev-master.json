@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "smartch/riseup-connector": {
+        "smartch/value-generator": {
             "manifest": {
                 "bundles": {
-                    "Smartch\\RiseUpConnector\\RiseUpConnectorBundle": [
+                    "Smartch\\ValueGenerator\\ValueGeneratorBundle": [
                         "all"
                     ]
                 },
@@ -25,7 +25,7 @@
             		"executable": false
             	}
             },
-            "ref": "66f90e632c36acc868f7045dc24dfcb10a901d83"
+            "ref": "66f90e632c36acc868f7045dc24dfcb10a901d84"
         }
     }
 }
