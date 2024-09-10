@@ -1,0 +1,31 @@
+{
+    "manifests": {
+        "smartch/teachonmars-connector": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\TeachOnMarsConnector\\TeachOnMarsConnectorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/packages/teachonmars_connector.yaml": {
+            		"contents": [
+            			"talent_soft_connector:",
+            			"    teachonmars_url: 'https://missioncentername-userdata.teachonmars.com/' # API base URL (missioncentername-userdata.teachonmars.com",
+            			"    teachonmars_app_id: 'com.teachonmars.tom.instance' # API instance identifier",
+            			"    teachonmars_api_key: 'secretkey' # API key",
+            			"    teachonmars_api_secret: 'secretsecret' # API Secret",
+                        "    timezone: 'UTC' # Timezone used for ToM API requests",
+            			""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "75f90e632c36acc868f7045cc24dfcb10a901f02"
+        }
+    }
+}
