@@ -1,0 +1,31 @@
+{
+    "manifests": {
+        "smartch/value-generator": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\ValueGenerator\\ValueGeneratorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/routes/value_generator.yaml": {
+            		"contents": [
+            			"value_generator_controllers:",
+            			"    resource:",
+            			"        path: '@ValueGeneratorBundle/src/Controller/'",
+            			"        namespace: Smartch\\ValueGenerator\\Controller",
+            			"    type: attribute",
+            			"    prefix: _value_generator/",
+            			""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "66f90e632c36acc868f7045dc24dfcb10a901d84"
+        }
+    }
+}
