@@ -14,7 +14,7 @@
             "files": {
             	"config/packages/teachonmars_connector.yaml": {
             		"contents": [
-            			"talent_soft_connector:",
+            			"teach_on_mars_connector:",
             			"    teachonmars_url: 'https://missioncentername-userdata.teachonmars.com/' # API base URL (missioncentername-userdata.teachonmars.com",
             			"    teachonmars_app_id: 'com.teachonmars.tom.instance' # API instance identifier",
             			"    teachonmars_api_key: 'secretkey' # API key",
