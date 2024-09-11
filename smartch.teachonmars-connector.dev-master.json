@@ -15,10 +15,13 @@
             	"config/packages/teachonmars_connector.yaml": {
             		"contents": [
             			"teach_on_mars_connector:",
-            			"    teachonmars_url: 'https://missioncentername-userdata.teachonmars.com/' # API base URL (missioncentername-userdata.teachonmars.com",
-            			"    teachonmars_app_id: 'com.teachonmars.tom.instance' # API instance identifier",
-            			"    teachonmars_api_key: 'secretkey' # API key",
-            			"    teachonmars_api_secret: 'secretsecret' # API Secret",
+            			"    teachonmars_legacy_url: 'https://missioncentername-userdata.teachonmars.com/' # API base URL (missioncentername-userdata.teachonmars.com",
+            			"    teachonmars_legacy_app_id: 'com.teachonmars.tom.instance' # API instance identifier",
+            			"    teachonmars_legacy_api_key: 'secretkey' # API key",
+            			"    teachonmars_legacy_api_secret: 'secretsecret' # API Secret",
+                        "    teachonmars_api_url: 'https://api.teachonmars.com/' # API base URL (api.teachonmars.com)",
+                        "    teachonmars_api_username: 'username' # API username",
+                        "    teachonmars_api_credential: 'password' # API password",
                         "    timezone: 'UTC' # Timezone used for ToM API requests",
             			""
             	    ],
