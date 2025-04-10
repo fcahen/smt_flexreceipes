@@ -21,12 +21,13 @@
             			"    max_requests: 100 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
             			"    requests_counting_window: 10 # Requests counting timeframe",
                         "    timezone: 'UTC' # Timezone used for Dendreo API requests",
+                        "    dev_mode: false # Halt on API response decoding error",
             			""
             	    ],
             		"executable": false
             	}
             },
-            "ref": "66f90e632c36acc868f7045cc24dfcb10a901d84"
+            "ref": "66f90e632c36acc868f7045cc24dfcb10a901c84"
         }
     }
 }
