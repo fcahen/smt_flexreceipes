@@ -1,0 +1,34 @@
+{
+    "manifests": {
+        "smartch/threesixtylearning-connector": {
+            "manifest": {
+                "bundles": {
+                    "Smartch\\ThreeSixtyLearningConnector\\ThreeSixtyLearningConnectorBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                	"config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+            	"config/packages/three_sixty_learning_connector.yaml": {
+            		"contents": [
+            			"three_sixty_learning_connector:",
+            			"    base_url: 'https://app.360learning.com' # API base URL (app.360learning.com)",
+            			"    request_url: 'https://app.360learning.com/api/v1/' # API base URL + API version",
+            			"    authentication_endpoint: 'https://app.360learning.com/api/v2/oauth2/token' # app.360learning.com or app-preprod.360learning.com",
+            			"    client_id: 'publickey' # Get it from your ThreeSixtyLearning API Settings page",
+            			"    client_secret: 'secretkey' # Get it from your ThreeSixtyLearning API Settings page",
+            			"    grant_type: 'client_credentials' # sole value supported",
+            			"    max_requests: 10 # Maxmum requests that can be sent for 'requests_counting_window' seconds",
+            			"    requests_counting_window: 1 # Requests counting timeframe",
+            			""
+            	    ],
+            		"executable": false
+            	}
+            },
+            "ref": "67f90e632c36acd868f7045cc24dfcb10a901d84"
+        }
+    }
+}
